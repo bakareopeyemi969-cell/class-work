@@ -4,12 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<h>, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="ll.jpg">
     <title>HTML PRATICE</title>
+    <link rel="styleshit" type="text/css" href="style.css">
+
+    <style>
+      
+        a{
+        text-decoration:none;
+         text-shadow: -5px -2px 2px rgba(16, 64, 238, 0.482);
+        }
+        h1{
+            color: rgb(9, 90, 196);
+        }
+        a:hover {
+            color: rgb(155, 162, 199);
+        }
+
+        ul {
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        h3 {
+            direction: ltr;
+            letter-spacing: 5px;
+            word-spacing: px;
+            text-indent: 20px;
+            text-align: 0px;
+            text-shadow: 5px 3px 5px rgba(196, 221, 10, 0.847);
+            margin-left: 50px;
+        }
+
+        h2 {
+            text-align: ;
+            text-shadow: 5px 6px 3px rgb(196, 212, 14, 0.966);
+            text-decoration: none;
+            text-transform: capitalize;
+            text-indent: 20px;
+            letter-spacing: 7px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1> <a href="index.html"><img src="ll.jpg" width="50px" height="50px">
-            Opeyemi HTML pratice ></a></h1>
+
+    <a href="index.html"><h1> <img src="ll.jpg" width="50px" height="50px">
+            Opeyemi HTML pratice</h1> </a>
     <ul>
         <li>
             <h4> <a href="index.html">Introduction</a></h4>
@@ -23,29 +64,33 @@
             <h4><a href="ass page 4.html"> products </a></h4>
         </li>
         <li>
-            <h4> <a  href="ass page 5.html">contact us</a></h4>
+            <h4> <a href="ass page 5.html">contact us</a></h4>
         </li>
     </ul>
 
 
-    <img src="pic.png" style="width:100%;" height="500px"><br>
-    <h3>orderlist</h3>
+    <img src="pic.png" style="width:100%;" height="500px"><br><br>
+
+    <h2 style="color: rgb(125, 149, 20);">TYPE OF LIST IN HTML</h2>
+    <h3 style="color: rgb(165, 197, 35);">order list</h3>
+
     <ol>
         <li>iphone</li>
         <li>tecno</li>
         <li>itel</li>
         <li>samsung</li>
     </ol><br>
-    <h3>unorderlist</h3>
+    <h3 style="color: rgb(186, 220, 14);">unorder list</h3>
     <ul>
-        <li>iphone</li>
-        <li>tecno</li>
-        <li>itel</li>
-        <li>samsung</li>
+        <ol>
+            <li>iphone</li>
+            <li>tecno</li>
+            <li>itel</li>
+            <li>samsung</li>
         </ol><br>
-        <h3>nexted list</h3>
+        <h3 style="color: rgb(166, 194, 9);">nexted list</h3>
         <ul>
-            <li>Type of phone</li>
+            <li style="text-decoration: underline;">Type of phone</li>
             <ul>
                 <li>iphone</li>
                 <ol>
@@ -53,22 +98,23 @@
                     <li>ip 12</li>
                 </ol>
                 <li>Infinix</li>
-                <ol>
+                <ol style="direction: rtl;">
                     <li>smart 5</li>
                     <li>spark 7 hd</li>
                     <li>spark 9</li>
                 </ol>
             </ul>
         </ul><br>
-        <h3>descriptive list</h3>
+        <h3 style="color: rgb(172, 174, 16);">descriptive list</h3>
         <dl>
-            <dt>Type of phone</dt>
+            <dt style="text-decoration: line-through;">Type of phone</dt>
             <dd>samsung</dd>
             <dd> iPhone</dd>
             <dd>samsung</dd>
-            <dd>itel</dd>
+            <dd>itel &nbsp;</dd>
         </dl>
-
+        <P style="margin-left: 300px;">&copf; Opeyemi HTML pratice.All right reserved </P>
+        <p style="margin-left:300px ;"></p>
 </body>
 
 </html>
